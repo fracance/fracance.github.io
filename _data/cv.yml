@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Francesco Cancelliere
     - name: Languages
-      value: English, German
+      value: Italian (Native), English (Fluent)
+    - name: Citizenship
+      value: American, Italian
+    - name: Certifications
+      value: UAS Pilot Open A1/A3
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD - AI Robot Navigation in Unstructured Environments
+      institution: University of Catania
+      year: 2023 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Leading applied research focused on developing Deep Reinforcement Learning algorithms for outdoor ground vehicle autonomy, focusing on end-to-end LiDAR and RGB camera AI models.
+        - Engineered and deployed a multi-agent full training pipeline (Python/PyTorch) within an Unreal Engine-based simulator, achieving a 10x increase in training efficiency for LiDAR tasks and 7x for RGB camera tasks compared to the previous single-agent architecture.
+        - Validated policies through extensive hardware testing on off-road platforms, focusing on sim-to-real transfer and real-world system reliability.
+    - title: MSc - Automation Engineering and Control of Complex System
+      institution: University of Catania
+      year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with 110/110 with Honors.
+    - title: BSc Electronics Engineering
+      institution: University of Catania
+      year: 2016 - 2020
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Robotics Research Engineer
+      institution: RobotiXX George Mason University
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed and built improved version of an RC-scale robot for autonomous outdoor navigation.
+        - Reduced the center of gravity by 20%, improving off-road capabilities and stability.
+        - Refactored the software stack from ROS to ROS 2, ensuring compatibility with the latest navigation software stack.
+        - Developed C++ embedded software for the an off-road differential-drive platform featuring an offset turret, integrating 3-axis stabilization (IMU-based) and real-time control logic via micro-ROS on a Teensy 4.0 MCU.
+    - title: Edge AI Application Engineer
+      institution: Deepsensing S.r.l.
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Supervise vision models development, ensuring compatibility with edge platforms, such as NVIDIA Jetson, Hailo-8, Intel ARRIA 10.
+        - Conduct performance benchmarking and testing to evaluate models and determine efficiency of each hardware platform for the task.
+    - title: Embedded Engineer
+      institution: Faradex S.r.l.
+      year: 2021 - 2023
       description:
+        - Provided tailored consulting and hands-on development for early-stage product development, specializing in embedded platforms.
+        - Accelerated time-to-market for 5+ products by designing and deploying low-level firmware and RTOS (FreeRTOS) solutions on resource-constrained platforms (STM32, ESP32), focusing on ultra-low power applications (sub mAh consumption).
+    - title: Robotic Engineer Consultant
+      institution: Rosys Group University of Catania
+      year: 2022 - 2022
+      description:
+        - Led the development of the autonomous beach cleanup system (SandRo), delivering a fully integrated, full-stack robotic solution from proof-of-concept to field testing in 6 months.
+        - Engineered the high-level perception and manipulation stack using ROS/Python, integrating a YOLOv5 object detection pipeline with a UR10e robotic arm via MoveIt.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Robotics & Autonomy
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - ROS 1/2, micro-ROS, Nav2, ros2_control, MoveIt, Gazebo, Unreal Engine, Docker
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - C++, Python (OOP, NumPy, SciPy), C (Embedded), MATLAB, Linux Shell Scripting
+    - title: AI/ML & Edge Deployment
+      items:
+        - PyTorch, TensorFlow, Computer Vision (YOLO), Edge Optimization (NVIDIA Jetson, Hailo-8 SDK, TensorRT), Model Quantization
+    - title: Embedded Systems
+      items:
+        - FreeRTOS, Microcontrollers (STM32, ESP32, AVR), Device Drivers (I2C, SPI, UART, CAN), Debugging (JTAG), Soldering
+    - title: Design & Tools
+      items:
+        - Git/GitHub, Linux (Advanced CLI), Autodesk Fusion 360 (CAD), Altium Designer (Schematics), Oscilloscope, Logic Analyzer
