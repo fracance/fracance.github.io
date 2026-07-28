@@ -3,16 +3,15 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  PhD Student / Robotics Enthusiast
+  Robotics Research Engineer / PhD Candidate
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Robotics Research Engineer and PhD candidate at the University of Catania, specializing in AI navigation for unstructured environments. My research focuses on developing Deep Reinforcement Learning models for outdoor autonomy, utilizing high-efficiency multi-agent training pipelines in Unreal Engine to bridge the gap between simulation and real-world hardware validation.
+I am a **Robotics Research Engineer** and PhD candidate bridging physical mechatronics, embedded systems, and autonomous navigation. My work spans the full robotic lifecycle—from blank-canvas CAD design and custom metal machining to low-level RTOS firmware, ROS 2 software architectures, and real-world outdoor field validation.
 
-In addition to my research, I serve as an Edge AI Application Engineer, optimizing vision models for platforms like NVIDIA Jetson and Hailo-8. My background spans the full robotic stack, from designing low-level FreeRTOS firmware for power-constrained devices to engineering high-level perception and manipulation systems for autonomous platforms.
+Currently, I conduct research at the **RobotiXX Lab (George Mason University)** and the **University of Catania**. My recent developments include co-designing **CHUTNI** (IROS 2026), an off-road holonomic robot featuring an active stabilization gimbal, engineering the **Verti-Wheeler v2** custom rock crawler with micro-ROS on Teensy, and deploying **Adaptive Dynamics Orchestration (ADO)** for Model Predictive Control on complex terrains.
 
-I am passionate about building reliable, end-to-end robotic solutions. From leading the development of the SandRo beach cleanup robot to refactoring navigation stacks for ROS 2, I combine academic insight with hands-on engineering to solve complex problems in autonomous systems.
+In addition to platform development, I serve as an **Edge AI Application Engineer**, optimizing vision models and benchmarking hardware efficiency across platforms like NVIDIA Jetson, Hailo-8, and Intel ARRIA 10 FPGAs. I also enjoy mentoring and leading competitive robotics teams, guiding the GMU team to **1st place overall** at the 2026 Raytheon Autonomous Vehicle Competition and achieving top placements in the NXP Cup.

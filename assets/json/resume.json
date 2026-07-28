@@ -6,7 +6,7 @@
     "email": "fracance@gmail.com",
     "phone": "",
     "url": "https://linkedin.com/in/fracance",
-    "summary": "PhD candidate specializing in AI Robot Navigation in Unstructured Environments with extensive experience in Deep Reinforcement Learning, edge AI deployment, and full-stack robotic system development.",
+    "summary": "Hands-on Robotics Engineer bridging physical mechatronics, embedded systems, and autonomous navigation. Skilled in taking complex robotic platforms from blank-canvas CAD design and machining to RTOS firmware, ROS 2 integration, and real-world field validation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,29 +24,29 @@
   },
   "work": [
     {
-      "name": "RobotiXX George Mason University",
+      "name": "RobotiXX Lab - George Mason University",
       "position": "Robotics Research Engineer",
       "url": "",
       "startDate": "2025-05-01",
       "endDate": "",
-      "summary": "Focusing on autonomous outdoor navigation and hardware optimization for off-road platforms.",
+      "summary": "Arlington (VA), USA",
       "highlights": [
-        "Designed and built improved version of an RC-scale robot for autonomous outdoor navigation",
-        "Reduced the center of gravity by 20%, improving off-road capabilities and stability",
-        "Refactored the software stack from ROS to ROS 2, ensuring compatibility with the latest navigation software stack",
-        "Developed C++ embedded software for an off-road differential-drive platform via micro-ROS on a Teensy 4.0 MCU"
+        "Co-developed CHUTNI (IROS 2026), an off-road holonomic robot: designed a rocker suspension with inter-axle differential, a 3-DoF active stabilization gimbal (±20° pitch/roll), and 1:2 gear turret in Autodesk Fusion 360.",
+        "Engineered Verti-Wheeler v2, a 1/10th scale rock crawler: fabricated chassis parts in-house (metal machining, 3D printing) and integrated 4WD differential locks, low/high gear servos, optical flow, and C++/micro-ROS firmware on Teensy.",
+        "Led real-world hardware deployments for Adaptive Dynamics Orchestration (ADO), a dynamic multi-model MPC framework achieving a 30% reduction in trajectory modeling error on complex off-road terrain.",
+        "Mentored the GMU team to 1st place overall at the 2026 Raytheon Autonomous Vehicle Competition, advising multi-robot hardware/software integration for GPS-denied VSLAM navigation and drone takeoff/landing on a moving UGV."
       ]
     },
     {
       "name": "Deepsensing S.r.l.",
-      "position": "Edge AI Application Engineer",
+      "position": "Application Engineer",
       "url": "",
       "startDate": "2024-06-01",
-      "endDate": "",
-      "summary": "Supervising vision models development and edge platform benchmarking.",
+      "endDate": "2025-12-01",
+      "summary": "Part Time",
       "highlights": [
-        "Supervise vision models development for NVIDIA Jetson, Hailo-8, and Intel ARRIA 10",
-        "Conduct performance benchmarking and testing to evaluate hardware efficiency"
+        "Supervised edge vision deployment and model optimization on embedded hardware platforms (NVIDIA Jetson, Hailo-8 SDK, Intel ARRIA 10 FPGA).",
+        "Conducted hardware performance benchmarking to evaluate throughput, power efficiency, and real-time execution across edge AI accelerators."
       ]
     },
     {
@@ -55,47 +55,48 @@
       "url": "",
       "startDate": "2021-02-01",
       "endDate": "2023-12-01",
-      "summary": "Specializing in low-level firmware and ultra-low power RTOS solutions.",
+      "summary": "",
       "highlights": [
-        "Accelerated time-to-market for 5+ products using FreeRTOS on STM32 and ESP32 platforms",
-        "Focused on ultra-low power applications with sub mAh consumption"
+        "Translated client system requirements into technical specifications, rapid prototyping concepts, and hardware architecture for 5+ commercial embedded products.",
+        "Developed low-level firmware and RTOS (FreeRTOS) on resource-constrained microcontrollers (STM32, ESP32), handling component sourcing and low-power management.",
+        "Executed end-to-end product bring-up, electronic testing, hardware validation (oscilloscopes, logic analyzers, JTAG), and transition from prototype to full production."
       ]
     },
     {
-      "name": "Rosys Group University of Catania",
+      "name": "Rosys Group - University of Catania",
       "position": "Robotic Engineer Consultant",
       "url": "",
       "startDate": "2022-05-01",
       "endDate": "2022-11-01",
-      "summary": "Led the development of the autonomous beach cleanup system (SandRo).",
+      "summary": "",
       "highlights": [
-        "Delivered a full-stack robotic solution from proof-of-concept to field testing in 6 months",
-        "Engineered high-level perception stack using YOLOv5 and MoveIt with a UR10e arm"
+        "Owned full-stack mechatronics and software integration for an autonomous beach cleanup robot (SandRo), driving the platform from proof-of-concept prototype to live field deployment in 6 months.",
+        "Engineered high-level perception and manipulation (ROS, Python, YOLOv5, UR10e arm, MoveIt) and integrated low-level motor controllers for reliable outdoor operation on sand."
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Catania",
       "location": "Catania, Italy",
       "url": "",
-      "area": "AI Robot Navigation in Unstructured Environments",
+      "area": "Robot Navigation in Complex Environments",
       "studyType": "PhD",
       "startDate": "2023-08-01",
       "endDate": "2026-07-01",
       "score": "",
       "courses": [
-        "Deep Reinforcement Learning",
-        "Multi-agent training pipelines",
-        "Sim-to-real transfer"
+        "Leading applied research on autonomous mobile platforms for navigation in unstructured environments, developing multi-modal LiDAR and RGB vision models and sim-to-real workflows.",
+        "Validated navigation policies through extensive field testing on physical off-road robot hardware.",
+        "Mentored and led a team of 3 MSc students for 2 consecutive years in NXP Cup autonomous racing competition, achieving 3rd and 1st best times overall with a custom vacuum-assisted downforce vehicle for maximum cornering grip.",
+        "Designed and built a motorized smart walker for mobility assistance, integrating actuators, embedded sensors, and an adaptive shared-control scheme for safe human-in-the-loop navigation."
       ]
     },
     {
       "institution": "University of Catania",
       "location": "Catania, Italy",
       "url": "",
-      "area": "Automation Engineering and Control of Complex System",
+      "area": "Automation Engineering and Control of Complex Systems",
       "studyType": "MSc",
       "startDate": "2019-10-01",
       "endDate": "2021-10-01",
@@ -114,101 +115,79 @@
       "courses": []
     }
   ],
-  "awards": [],
   "certificates": [
     {
       "name": "UAS Pilot Open A1/A3",
       "date": "",
-      "issuer": "ENAC/EASA",
+      "issuer": "ENAC / EASA",
       "url": "",
       "icon": "fa-solid fa-plane"
     }
   ],
-  "publications": [
-    {
-      "name": "SandRo, a Robot for Beach Waste Cleanup",
-      "publisher": "European Robotics Forum, Springer",
-      "releaseDate": "2024-01-01",
-      "url": "",
-      "summary": "Development and deployment details of the SandRo beach cleanup robot."
-    },
-    {
-      "name": "MIDGARD: A Robot Navigation Simulator for Outdoor Unstructured Environments",
-      "publisher": "European Robotics Forum, Springer",
-      "releaseDate": "2024-01-01",
-      "url": "",
-      "summary": "Introduction of a specialized simulator for outdoor autonomous navigation."
-    },
-    {
-      "name": "Timely Predicting Power Mosfet Failure in EV: AI Based Metodology and Deployment at the Edge",
-      "publisher": "IEEE Symposia on Computational Intelligence",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "AI-based predictive maintenance for electric vehicle components deployed at the edge."
-    }
-  ],
   "skills": [
+    {
+      "name": "Mechatronics & Fabrication",
+      "level": "Expert",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "CAD (Onshape, Fusion 360)",
+        "In-House Fabrication (CNC, Lathe, Welding)",
+        "3D Printing",
+        "Rapid PoC Prototyping",
+        "Component Sourcing",
+        "Actuator & Sensor Integration"
+      ]
+    },
+    {
+      "name": "Embedded Systems & Firmware",
+      "level": "Expert",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Teensy, STM32, ESP32, AVR",
+        "Embedded C/C++",
+        "FreeRTOS",
+        "micro-ROS",
+        "Protocols (CAN, SPI, I2C, UART)",
+        "Debugging (Oscilloscope, Logic Analyzer, JTAG)",
+        "Altium Designer"
+      ]
+    },
     {
       "name": "Robotics & Autonomy",
       "level": "Expert",
       "icon": "fa-solid fa-robot",
       "keywords": [
         "ROS 1/2",
-        "micro-ROS",
+        "ros2_control",
         "Nav2",
         "MoveIt",
         "Gazebo",
-        "Unreal Engine",
-        "Docker"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "Expert",
-      "icon": "fa-solid fa-code",
-      "keywords": [
+        "Python (NumPy, SciPy)",
         "C++",
-        "Python",
-        "C (Embedded)",
-        "MATLAB",
-        "Linux Shell Scripting"
+        "Linux (CLI)",
+        "Docker"
       ]
     },
     {
       "name": "AI/ML & Edge Deployment",
       "level": "Expert",
-      "icon": "fa-solid fa-microchip",
+      "icon": "fa-solid fa-brain",
       "keywords": [
         "PyTorch",
-        "TensorFlow",
-        "YOLO",
-        "NVIDIA Jetson",
-        "Hailo-8",
-        "TensorRT"
-      ]
-    },
-    {
-      "name": "Embedded Systems",
-      "level": "Expert",
-      "icon": "fa-solid fa-circuit-board",
-      "keywords": [
-        "FreeRTOS",
-        "STM32",
-        "ESP32",
-        "I2C/SPI/UART/CAN",
-        "JTAG"
+        "Computer Vision (YOLO)",
+        "Edge AI (NVIDIA Jetson, Hailo-8 SDK, TensorRT)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Italian",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Italian",
+      "fluency": "Native",
       "icon": ""
     }
   ],
@@ -219,23 +198,9 @@
       "keywords": [
         "Autonomous Navigation",
         "Reinforcement Learning",
-        "Edge AI"
+        "Edge AI",
+        "Mechatronics"
       ]
-    }
-  ],
-  "references": [],
-  "projects": [
-    {
-      "name": "SandRo",
-      "summary": "Autonomous beach cleanup system utilizing a UR10e arm and YOLOv5 perception.",
-      "highlights": [
-        "Full-stack integration",
-        "Computer Vision",
-        "Manipulation"
-      ],
-      "startDate": "2022-05-01",
-      "endDate": "2022-11-01",
-      "url": ""
     }
   ]
 }
